@@ -1,0 +1,114 @@
+body{
+    color:rgb(242, 234, 234);
+    background-image:linear-gradient(rgb(56, 126, 148) 25%, black 55%);
+}
+header{
+    text-align: left;
+}
+h4{font-family: Trochut;
+    font-size: 22px;
+}
+
+h1{font-family: "Spicy Rice";
+    font-size:60px;
+}
+
+h2{font-family: Trochut;
+    font-size: 40px;
+    text-align: left;
+    padding-left: 60px;
+}
+h3{float: inline-start;
+    font-family:"Spicy Rice";
+    font-size: 30px; 
+}
+
+.button{font-weight: bold;
+    font-family: "Source Sans";
+    padding-left: 25%;
+}
+
+.homepage {
+    position: absolute;
+    right: 0px;
+    top: 46px;
+    width: 500px;
+    height: 500px;
+    padding: 50px;
+    border-radius: 100%;
+}
+
+.navbar ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    background-color: rgb(1, 11, 17);
+    font-family: Trochut;
+    font-size: 25px;
+    font-weight: bold;
+}
+.navbar a{
+    color:rgb(238, 236, 234);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    unicode-bidi: isolate;
+    text-align: center;
+}
+.navbar li{
+    float: inline-end;
+}
+
+.image{
+    margin: 50px;
+    border: 1px #ccc;
+    float: left;
+    width: 300px;
+    padding: 30px;
+  }
+    .image:hover{
+    border: 2px #777;
+  }
+
+  .description{
+    padding: 20px;
+    padding-left: 70px;
+    padding-right: 5px;
+    text-align: center;
+    font-family: Trochut;
+    font-size: 20px;
+    border-radius: 50px;
+  }
+
+  .featureone{
+    text-align: center;
+    padding-left: 70px;
+    font-family: Trochut;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .featuretwo{
+    text-align: center;
+    padding-left: 70px;
+    font-family: Trochut;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .featurethree{
+    text-align: center;
+    padding-left: 70px;
+    font-family: Trochut;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .benefits{float: inline-start;
+    font-family:Trochut;
+    font-size: 20px;  
+}
+.container{float: right;
+    padding-left: 5%;
+    padding-right: 4%;
+    
+
+}

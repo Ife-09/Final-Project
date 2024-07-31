@@ -1,0 +1,42 @@
+body{
+    color:rgb(242, 234, 234);
+    background-image:linear-gradient(rgb(56, 126, 148) 25%, black 55%);
+}
+
+h1{font-family: "Spicy Rice";
+    font-size:40px;
+    text-align: center;
+}
+h2{
+    font-family: Trochut;
+    font-size: 30px;
+    text-align: center;
+}
+
+.containerone{
+    margin: 20px;
+    border: 1px #ccc;
+    float: left;
+    width: 300px;
+    padding: 30px;
+    padding-right: 10%;
+ 
+}
+
+.containertwo{
+    margin: 20px;
+    border: 1px #ccc;
+    float: left;
+    width: 300px;
+    padding: 30px;
+    padding-left: 20%;
+}
+
+.description{
+    padding: 10px;
+    padding-left: 100px;
+    padding-right: 5px;
+    text-align: center;
+    font-family: Trochut;
+    font-size: 18px;
+}
