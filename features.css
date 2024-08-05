@@ -3,6 +3,28 @@ body{
     background-image:linear-gradient(rgb(56, 126, 148) 25%, black 55%);
 }
 
+.navbar ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    background-color: rgb(1, 11, 17);
+    font-family: Trochut;
+    font-size: 25px;
+    font-weight: bold;
+}
+.navbar a{
+    color:rgb(238, 236, 234);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    unicode-bidi: isolate;
+    text-align: center;
+}
+.navbar li{
+    float: inline-end;
+}
+
 h4{
     text-align: left;
     font-family: Trochut;
