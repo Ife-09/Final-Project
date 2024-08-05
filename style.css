@@ -25,7 +25,7 @@ h3{float: inline-start;
 
 .button{font-weight: bold;
     font-family: "Source Sans";
-    padding-left: 25%;
+    padding-left: 19%;
 }
 
 .homepage {
@@ -112,3 +112,22 @@ h3{float: inline-start;
     
 
 }
+.form{position: relative;
+    padding-top: 15%;
+    padding-left: 31%;
+}
+
+.box{
+    float: left;
+    padding-top: 12%;
+    padding-right: 20%;
+    font-family: Trochut;
+    font-size: 20px;  
+}
+
+.left{
+    float:left;
+    padding-left: 20px;
+  }
+ 
+

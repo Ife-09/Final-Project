@@ -13,48 +13,48 @@
     <!-- Navigation Top -->
     <nav class="navbar">
         <ul>
-            <li><a href="./about.html">About</a></li>
-            <li><a href="./contact.html">Contact</a></li>
             <li><a href="./food.html">Food</a></li>
             <li><a href="./sightseeing.html">Sightseeing</a></li>
             <li><a href="./features.html">Features</a></li>
         </ul>
     </nav>  
-        <header><h4> @Holiday & Travel Lookbook</h4>
+        <header>
+            <h4> @Holiday & Travel Lookbook</h4>
             <h1> Travel in Style and Vacay all Day </h1>
             <h2> Sit Back, Relax and Enjoy the Experience </h2>
             
             <div class="button">
-               <a href="./features.html" ><button style="font-size: 15px; background-color: black; color: beige; border-radius: 5px;"> GET STARTED </button></a>
+                <a href="./features.html" ><button style="font-size: 25px; background-color: black; color: beige; border-radius: 15px;"> GET STARTED </button></a>
             </div>
             <script src="index.js"></script>
         </header>
     <main>
+        <section>
+            <div class="homepage">
+                <img src="./Images/Homepagepic.jpg"alt="Homepage pic" width="525px" height="300px">
+            </div>
 
-    <div class="homepage">
-        <img src="./Images/Homepagepic.jpg"alt="Homepage pic" width="525px" height="300px">
-    </div>
+            <div class="image">
+                <div class="featureone">Feature One</div>
+                    <img src="./Images/Featureone.jpg" alt="destinations" width="400" height="250">
+                <div class="description"> Step into adventurous sights and switch on do not disturb mode </div>
+            </div>
 
-    <div class="image">
-        <div class="featureone">Feature One</div>
-            <img src="./Images/Featureone.jpg" alt="destinations" width="400" height="250">
-            <div class="description"> Step into adventurous sights and switch on do not disturb mode </div>
-    </div>
+            <div class="image">
+                <div class="featuretwo">Feature Two</div>
+                    <img src="./Images/Featuretwo.jpg" alt="sightseeing" width="400" height="250">
+                <div class="description"> Explore sightseeing and indulge in the activities </div>
+            </div>
 
-    <div class="image">
-        <div class="featuretwo">Feature Two</div>
-            <img src="./Images/Featuretwo.jpg" alt="sightseeing" width="400" height="250">
-            <div class="description"> Explore sightseeing and indulge in the activities </div>
-    </div>
+            <div class="image">
+                <div class="featurethree">Feature Three</div>
+                    <img src="./Images/Featurethree.jpg" alt="food" width="400" height="250">
+                <div class="description"> Calories don't count when you are on vacation </div>
+            </div>
+        </section>
 
-    <div class="image">
-        <div class="featurethree">Feature Three</div>
-            <img src="./Images/Featurethree.jpg" alt="food" width="400" height="250">
-            <div class="description"> Calories don't count when you are on vacation </div>
-    </div>
-        <article>
-            <section>
-                <h3> Main Benefits </h3>
+        <section>
+            <h3> Main Benefits </h3>
                 <div class="benefits">
                     <ul>
                         <li> Mobile Version Friendly </li>
@@ -66,17 +66,36 @@
                 <div class="container">
                     <img src="./Images/Holidaypic.jpg"alt="Beach pic" width="400px" height="250px">
                 </div>
-             </section>
-             <section>
-                <h3> Subscribe Form </h3>
-                
-             </section>
-        </article>
-    </main>
+        </section>
+             
+        <section>
+            <h3 class="form"> Subscribe Form </h3>
+              <form class="box">Enter your information below for daily updates on travel destination!</form>
+                <div class="left">
+                    <form action="index.php" method="POST">
+                        <label for="email"></label>
+                        <input type="email" id="email" placeholder="Email address">
+                 </div>
+                   
+                 <div class="left">
+                    <label for="fullname"></label>
+                    <input type="text" id="fullname" placeholder="Full name">
+                </div>
+                        <input type="submit">
+                    </form>
+          </section>
+   
+    </main>                 
     
     <footer>
+<!--Watermarks & Trademarks-->
+  <div>
+    <h6>293 Harrison St.London,WC1D 7PS,UK</h6>
+    <h6>2024 Holiday & Travel Lookbook, All rights</h6>
+  </div>
 
     </footer>
+
 </body>
 
 
