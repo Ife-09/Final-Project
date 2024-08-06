@@ -51,7 +51,7 @@ h3{float: inline-start;
 .navbar a{
     color:rgb(238, 236, 234);
     text-decoration: none;
-    padding: 15px;
+    padding: 14px 16px;
     display: block;
     unicode-bidi: isolate;
     text-align: center;
@@ -59,6 +59,10 @@ h3{float: inline-start;
 .navbar li{
     float: inline-end;
 }
+
+li a:hover {
+    background-color:grey;
+  }
 
 .image{
     margin: 50px;

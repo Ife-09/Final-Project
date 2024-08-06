@@ -1,18 +1,40 @@
+body{
+    color:rgb(242, 234, 234);
+    background-image:linear-gradient(rgb(56, 126, 148) 25%, black 55%);
+}
+
+
 li a {
     display: block;
-    color: black;
+    color:rgb(238, 236, 234);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-family: "Source Sans 3", sans-serif;
+    unicode-bidi: isolate;
     font-optical-sizing: auto;
-    font-weight: <weight>;
     font-style:normal;
 }
+
+.navbar ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    background-color: rgb(1, 11, 17);
+    font-family: Trochut;
+    font-size: 25px;
+    font-weight: bold;
+}
+
   /* Change the link color to #111 (black) on hover */
   li a:hover {
     background-color:grey;
   }
+  
+
+  h4{font-family: Trochut;
+    font-size: 22px;
+}
   button{
     font-family: "Source Sans 3", sans-serif;
     font-optical-sizing: auto;
@@ -22,7 +44,7 @@ li a {
     color:white;
     font-size:15px;
     border-radius:12px;
-    padding: 10px;px;
+    padding: 10px;
     width:175px;
      }
      <style>
@@ -34,14 +56,11 @@ li a {
      li {
        display: inline;
        float:right;}
-     .title{
-        color:white;
+     
+       .title{
         text-align: center;
-        font-family: "Spicy Rice", serif;
-        font-weight: 400;
-        font-style: normal;
-        font-size: 75px;
-        padding:40px;
+        font-family: "Spicy Rice";
+        font-size: 60px;
     }
      .countries {
         color:white;
@@ -54,12 +73,12 @@ li a {
      .caption{
         color:white;
         text-align: center;
-        font-family: "Trochut", sans-serif;
+        font-family: Trochut, sans-serif;
         font-weight: 200px;
         font-style: normal;}
      .description{
         color:white;
-        font-family: "Trochut", sans-serif;
+        font-family: Trochut, sans-serif;
         font-weight: 600;
         font-style: normal; }
     .des{
@@ -69,7 +88,9 @@ li a {
         color:white;
         font-family: "Spicy Rice", serif;
         font-weight: 400;
-        font-style: normal;}
+        font-style: normal;
+    }
+
         img{
             width:300px;
             height:200px;
@@ -91,7 +112,7 @@ li a {
   }
   .a{
     color:white;
-    font-family: "Trochut", sans-serif;
+    font-family: Trochut, sans-serif;
     font-weight: 200px;
     font-style: normal;
     font-size: 10px;
@@ -99,7 +120,7 @@ li a {
   .captiona{
     color:white;
     text-align: center;
-    font-family: "Trochut", sans-serif;
+    font-family: Trochut, sans-serif;
     font-weight: 200px;
     font-style: normal;
     font-size: 40px;}

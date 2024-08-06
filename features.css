@@ -25,6 +25,10 @@ body{
     float: inline-end;
 }
 
+li a:hover {
+    background-color:grey;
+  }
+
 h4{
     text-align: left;
     font-family: Trochut;
@@ -32,7 +36,7 @@ h4{
 }
 
 h1{font-family: "Spicy Rice";
-    font-size:40px;
+    font-size:60px;
     text-align: center;
 }
 h2{

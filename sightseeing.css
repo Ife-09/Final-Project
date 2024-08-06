@@ -25,8 +25,12 @@ body{
     float: inline-end;
 }
 
+li a:hover {
+    background-color:grey;
+  }
+
 h1{font-family: "Spicy Rice";
-    font-size:50px;
+    font-size:60px;
     text-align: center;
 }
 h2{
