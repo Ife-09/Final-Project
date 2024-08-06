@@ -47,12 +47,14 @@ li a {
     padding: 10px;
     width:175px;
      }
+
      <style>
      ul {
        list-style-type: none;
        margin: 0;
        padding: 0;
      }
+      
      li {
        display: inline;
        float:right;}
@@ -70,20 +72,26 @@ li a {
         text-align: center;
         padding:50px;
         font-size: 50px;}
+
      .caption{
         color:white;
         text-align: center;
         font-family: Trochut, sans-serif;
         font-weight: 200px;
         font-style: normal;}
+        
+
      .description{
         color:white;
         font-family: Trochut, sans-serif;
         font-weight: 600;
         font-style: normal; }
-    .des{
+
+    .des{ 
         color:white;
         }
+        
+        
     .food{
         color:white;
         font-family: "Spicy Rice", serif;
@@ -95,21 +103,26 @@ li a {
             width:300px;
             height:200px;
         }
+
+
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
     float: left;
     width: 33.33%;
     padding: 5px;
   }
+  
   /* Clear floats after image containers */
   .row::after {
     content: "";
     clear: both;
     display: table;
   }
+
   .space{
     padding-left: 450px;
   }
+
   .a{
     color:white;
     font-family: Trochut, sans-serif;
@@ -117,6 +130,7 @@ li a {
     font-style: normal;
     font-size: 10px;
   }
+
   .captiona{
     color:white;
     text-align: center;
