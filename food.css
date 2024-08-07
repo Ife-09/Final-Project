@@ -116,3 +116,15 @@ body{
     font-weight: 200px;
     font-style: normal;
     font-size: 40px;}
+
+
+.link{
+            width:50%;
+            float:left;
+            text-align: center;
+          }
+
+          img{
+            width:525px;
+            height:300px;
+          }
