@@ -3,9 +3,18 @@ body{
     background-image:linear-gradient(rgb(56, 126, 148) 25%, black 55%);
 }
 
-.dropdown-menu{
-    right: 0;
+.dropdown-item{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
 }
+
+.dropdown-button{
+    float:right;
+}
+
+
 
 h4{
     text-align: left;
@@ -51,7 +60,7 @@ h2{
 
 .countries {
     color:white;
-    font-family: "Spicy Rice", serif;
+    font-family: "Spicy Rice";
     font-weight: 400;
     font-style: normal;
     text-align: center;

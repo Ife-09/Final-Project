@@ -3,28 +3,17 @@ body{
     background-image:linear-gradient(rgb(56, 126, 148) 25%, black 55%);
 }
 
-
-li a {
-    display: block;
-    color:rgb(238, 236, 234);
-    text-align: center;
-    padding: 14px 16px;
+.dropdown-item{
+    color: black;
+    padding: 12px 16px;
     text-decoration: none;
-    unicode-bidi: isolate;
-    font-optical-sizing: auto;
-    font-style:normal;
+    display: block;
 }
 
-.navbar ul{
-    list-style-type: none;
-    padding: 0px;
-    margin: 0px;
-    overflow: hidden;
-    background-color: rgb(1, 11, 17);
-    font-family: Trochut;
-    font-size: 25px;
-    font-weight: bold;
+.dropdown-button{
+    float:right;
 }
+
 
   /* Change the link color to #111 (black) on hover */
   li a:hover {
@@ -35,20 +24,9 @@ li a {
   h4{font-family: Trochut;
     font-size: 22px;
 }
-  button{
-    font-family: "Source Sans 3", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-    background-color:black;
-    color:white;
-    font-size:15px;
-    border-radius:12px;
-    padding: 10px;
-    width:175px;
-     }
+  
 
-     <style>
+    
      ul {
        list-style-type: none;
        margin: 0;
@@ -87,9 +65,12 @@ li a {
         font-weight: 600;
         font-style: normal; }
 
-    .des{ 
-        color:white;
-        }
+        p{  color:white;
+            font-family: Trochut;
+            font-weight: 600;
+            font-style: normal;
+            text-align: center;
+         }
         
         
     .food{
@@ -99,10 +80,7 @@ li a {
         font-style: normal;
     }
 
-        img{
-            width:300px;
-            height:200px;
-        }
+        
 
 
 /* Three image containers (use 25% for four, and 50% for two, etc) */
