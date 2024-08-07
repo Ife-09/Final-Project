@@ -3,31 +3,9 @@ body{
     background-image:linear-gradient(rgb(56, 126, 148) 25%, black 55%);
 }
 
-.navbar ul{
-    list-style-type: none;
-    padding: 0px;
-    margin: 0px;
-    overflow: hidden;
-    background-color: rgb(1, 11, 17);
-    font-family: Trochut;
-    font-size: 25px;
-    font-weight: bold;
+.dropdown-menu{
+    right: 0;
 }
-.navbar a{
-    color:rgb(238, 236, 234);
-    text-decoration: none;
-    padding: 15px;
-    display: block;
-    unicode-bidi: isolate;
-    text-align: center;
-}
-.navbar li{
-    float: inline-end;
-}
-
-li a:hover {
-    background-color:grey;
-  }
 
 h4{
     text-align: left;
@@ -70,3 +48,49 @@ h2{
     font-family: Trochut;
     font-size: 15px;
   }
+
+.countries {
+    color:white;
+    font-family: "Spicy Rice", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    padding:50px;
+    font-size: 50px;}
+
+    p{  color:white;
+        font-family: Trochut;
+        font-weight: 600;
+        font-style: normal;
+        text-align: center;
+     }
+
+   .title{
+        color:white;
+        text-align: center;
+        font-family: "Spicy Rice";
+        font-weight: 400;
+        font-style: normal;
+        font-size: 75px;
+        padding:40px;}
+
+
+.link{
+            width:50%;
+            float:left;
+            text-align: center;
+          }
+
+          img{
+            width:525px;
+            height:300px;
+          }
+
+          .a{
+            color:white;
+            font-family: Trochut;
+            font-weight: 200px;
+            font-style: normal;
+            font-size: 10px;
+            text-align: center;
+          }
